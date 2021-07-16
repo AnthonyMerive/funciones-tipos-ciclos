@@ -1,6 +1,6 @@
 function capturarDatos() {
     let nombre = document.getElementById('inputNombre').value;
-    let apellido = document.querySelector('#inputApellido').value;
+    let apellido = document.getElementById('inputApellido').value;
     if (nombre === "" || apellido === "") {
         console.log("todos los campos son requeridos");
     }
