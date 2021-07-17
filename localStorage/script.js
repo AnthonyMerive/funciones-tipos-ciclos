@@ -1,10 +1,6 @@
 //capturar la lista
 let listar = document.getElementById('listar');
 
-//10 cargar la lista al cargar el DOM
-
-
-
 //2 capturar el boton enviar
 let boton = document.getElementById('btnEnviar');
 
@@ -47,7 +43,7 @@ function guardarLocalStorage(nom,ape,tel,dir){
     listarData();
 } 
 
-//8 listar la información del local storage
+
 
 
 

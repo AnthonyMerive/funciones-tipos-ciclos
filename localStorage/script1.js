@@ -1,4 +1,8 @@
+//10 cargar la lista al cargar el DOM
+
 document.addEventListener('DOMContentLoaded',listarData)
+
+//8 listar la información del local storage
 
 function listarData(){
     
