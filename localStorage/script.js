@@ -1,5 +1,4 @@
-//capturar la lista
-let listar = document.getElementById('listar');
+
 
 //2 capturar el boton enviar
 let boton = document.getElementById('btnEnviar');
@@ -11,11 +10,10 @@ boton.addEventListener('click',capturaDatos)
 //capturamos el formulario
 let form = document.getElementById('form');
 
-//5 llamar al escuchador del evento
+
 
 form.addEventListener('submit',formSumbit)
 
-//6 funcion para prevenir el evento por defecto
 function formSumbit(e){
   e.preventDefault();
 }

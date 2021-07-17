@@ -1,3 +1,6 @@
+//capturar la lista
+let listar = document.getElementById('listar');
+
 //10 cargar la lista al cargar el DOM
 
 document.addEventListener('DOMContentLoaded',listarData)
