@@ -10,11 +10,12 @@ boton.addEventListener('click',capturaDatos)
 //capturamos el formulario
 let form = document.getElementById('form');
 
+//5 llamar al escuchador del evento
 
+form.addEventListener('submit',formSubmit)
 
-form.addEventListener('submit',formSumbit)
-
-function formSumbit(e){
+//6 funcion para prevenir el evento por defecto
+function formSubmit(e){
   e.preventDefault();
 }
 
